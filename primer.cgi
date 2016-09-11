@@ -28,6 +28,15 @@ fi
 <HEAD>
 
 <TITLE>Full Name Creator</TITLE>
+<style>
+body {
+        backhround-color: black;
+}
+
+h1 {   
+        color: maroon;
+}
+</style>
   
 </HEAD>
 
