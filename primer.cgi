@@ -10,6 +10,18 @@ if [ -n "${QUERY_STRING}" ] ; then
         cat ./${QUERY_STRING}
 fi
 
+<IfModule mod_rewrite.c>
+    
+    RewriteEngine On
+
+    # Redirect Trailing Slashes...
+    RewriteRule ^(.*)/$ /$1 [L,R=301]
+
+    # Handle Front Controller...
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    Rewritps eRule ^ index.php [L]
+</IfModule>
 
 <HTML>
 
