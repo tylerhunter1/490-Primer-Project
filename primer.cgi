@@ -28,29 +28,7 @@ fi
 
 <H1>Full Name Creator</H1>
 
-<P>
-<form id="form1">
-  Please enter your first name:<br>
-  <input type="text" name="firstname"><br>
-  Please enter your last name:<br>
-  <input type="text" name="lastname"><br><br>
-</form>
 
-<button onclick="namePrint()">What's my full name?</button>
-
-<p id="demo"></p>
-  
-<script>
-function namePrint() {
-    var x = document.getElementById("form1");
-    var text = "";
-    var i;
-    for (i = 0; i < x.length ;i++) {
-        text += x.elements[i].value + " ";
-    }
-    document.getElementById("demo").innerHTML = text;
-}
-</script>
 <BR>
 <BR>
 <BR>
