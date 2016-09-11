@@ -3,7 +3,13 @@
 
 LOG:
 
-created primer.cgi file
+wrote a file reader class in Java and tried to get it working like simple.cgi
+
+worked fine in the JGrasp compiler, but wasn't able to figure out how to connect it with CGI and the browser
+
+ended up trashing the Java and switching to bash
+
+created primer.cgi file in bash
 
 started initially with just concatenating QUERY_STRING line
 
@@ -33,7 +39,8 @@ was able to view everything on a web browser!
 SUMMARY STATUS:
 
 Project is now complete with all requirements fulfilled. 
-Was fairly stressful until I figured out what I was doing 
+Was fairly stressful until I figured out how to connect each working part. 
+I initially tried writing it in Java, but was a little confused on how to connect Java and CGI, so I looked up how to do it in bash, which was much easier.  
 
 
 
